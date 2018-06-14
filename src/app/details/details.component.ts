@@ -20,7 +20,7 @@ export class DetailsComponent implements OnInit {
   ngOnInit() {
     this.data.getUser(this.user).subscribe(
       (data) => { this.user = data }
-    );
+    )
   }
 
 }
